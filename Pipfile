@@ -12,6 +12,7 @@ dash-core-components = "==0.44.0"
 dash-table = "==3.6.0"
 dash-daq = "==0.1.0"
 requests = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.5"
