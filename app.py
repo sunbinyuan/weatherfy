@@ -19,6 +19,9 @@ prev_data = None
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
+server = app.server
+
+
 app.layout = html.Div(className="container",children=[
 
     html.Div(className="row", children=html.H2(children=[
